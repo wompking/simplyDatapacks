@@ -4,7 +4,7 @@ A repository for all of the Simply Certified Compatible datapacks.
 Note that these datapacks come seperately; you don't have to have all of them as long as all dependencies are resolved.
 
 ### Table Of Contents
-* Crafting Core
+* Simply Core
 * Mechanical Compactinator
 * Laser Rifle
 * Variety Tweaks
@@ -22,7 +22,13 @@ The middle 9 blocks should be covered with item frames. Note that the structure 
 
 Here's a template for custom crafting recipes:
 
-The second thing the datapack adds is a few scoreboards: namely, SimplyPosX, SimplyPosY, SimplyPosZ, and SimplyDimension. These, respectively, contain every entity's position *(rounded to whole numbers)* and dimension.
+The second thing the datapack adds is a few scoreboards: 
+* SimplyPosX; an entity's X position, rounded
+* SimplyPosY; an entity's Y position, rounded
+* SimplyPosZ; an entity's Z position, rounded 
+* SimplyDimension; an entity's dimension ID
+* SimplyClick; a scoreboard for carrot-on-a-stick clicks. Query entities that clicked this tick using the tag SimplyClicked.
+* SimplyRandom; random numbers, updated every tick. Query using `scoreboard players get <#> SimplyRandom`, where `#` is a number from 0 - 15.
 
 `ADD A PICTURE HERE LATER`
 ## Mechanical Compactinator
