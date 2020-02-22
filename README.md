@@ -7,19 +7,22 @@ Note that these datapacks come seperately; you don't have to have all of them as
 * Crafting Core
 * Mechanical Compactinator
 * Laser Rifle
-* Downloads
+* Variety Tweaks
 * FAQ
 
 
-## Crafting Core
+## Simply Core
 ###### Datapack Author: wompking
-This datapack adds a crafting structure used in some datapacks. The basic crafting structure is built like this, on the floor, with north upward:
+This datapack adds a few core things.
+First, a crafting structure. The basic crafting structure is built like this, on the floor, with north upward:
 
 ![Basic Crafting Structure](https://cdn.discordapp.com/attachments/680681632373407779/680682979546234887/structure.png)
 
 The middle 9 blocks should be covered with item frames. Note that the structure will only activate **if both the item frames are present and the redstone lamp is lit**. Multiple crafting structures can be "joined" together in the east-west direction; no need to use extra birch wood. To use the crafting structure, put the required items in the item frames and light the redstone lamp; particles should appear and the item should craft.
 
 Here's a template for custom crafting recipes:
+
+The second thing the datapack adds is a few scoreboards: namely, SimplyPosX, SimplyPosY, SimplyPosZ, and SimplyDimension. These, respectively, contain every entity's position *(rounded to whole numbers)* and dimension.
 
 `ADD A PICTURE HERE LATER`
 ## Mechanical Compactinator
@@ -42,6 +45,16 @@ Its dependencies are:
 
 
 Note that when firing close to straight down, the firer may be shot instead of the target.
+
+## Variety Tweaks
+###### Datapack Author: wompking
+This datapack adds a few tweaks into Minecraft
+Its dependencies are:
+* Simply Core
+
+Here's a list of all the tweaks it adds:
+* Charged creepers are faster
+* Falling out of the end teleports you back into the overworld
 
 ## FAQ
 ***Q: Hey, I have a datapack idea / datapack that I would like to add to this list. How can I do this?***
