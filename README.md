@@ -23,12 +23,18 @@ The middle 9 blocks should be covered with item frames. Note that the structure 
 Here's a template for custom crafting recipes:
 
 The second thing the datapack adds is a few scoreboards: 
-* SimplyPosX; an entity's X position, rounded
-* SimplyPosY; an entity's Y position, rounded
-* SimplyPosZ; an entity's Z position, rounded 
-* SimplyDimension; an entity's dimension ID
+* SimplyPosX; an entity's X position, rounded.
+* SimplyPosY; an entity's Y position, rounded.
+* SimplyPosZ; an entity's Z position, rounded.
+* SimplyDimension; an entity's dimension ID.
 * SimplyClick; a scoreboard for carrot-on-a-stick clicks. Query entities that clicked this tick using the tag SimplyClicked.
 * SimplyRandom; random numbers, updated every tick. Query using `scoreboard players get <#> SimplyRandom`, where `#` is a number from 0 - 15.
+* SimplyRayStep; used for recursive raycasting purposes.
+* SimplyConstant; has important constants. Query using `scoreboard players get #x SimplyConstant`, where `x` is a supported constant. Supported constants are:
+  * 20
+  * -1
+  * 1
+  * 0
 
 `ADD A PICTURE HERE LATER`
 ## Mechanical Compactinator
@@ -61,6 +67,17 @@ Its dependencies are:
 Here's a list of all the tweaks it adds:
 * Charged creepers are faster
 * Falling out of the end teleports you back into the overworld
+
+## Stabilized Ender Teleportation Core
+###### Datapack Author: wompking
+This datapack adds a teleportation item.
+Its dependencies are:
+* Crafting Core
+* Mechanical Compactinator
+
+
+When the item is used, the user teleports forwards ~25 blocks.
+If used too many times in a short period, negative effects can occur to the user.
 
 ## FAQ
 ***Q: Hey, I have a datapack idea / datapack that I would like to add to this list. How can I do this?***
