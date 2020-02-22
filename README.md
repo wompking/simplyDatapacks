@@ -7,9 +7,12 @@ Note that these datapacks come seperately; you don't have to have all of them as
 * Crafting Core
 * Mechanical Compactinator
 * Laser Rifle
+* Downloads
+* FAQ
 
 
 ## Crafting Core
+###### Datapack Author: wompking
 This datapack adds a crafting structure used in some datapacks. The basic crafting structure is built like this, on the floor, with north upward:
 
 ![Basic Crafting Structure](https://cdn.discordapp.com/attachments/680681632373407779/680682979546234887/structure.png)
@@ -20,6 +23,7 @@ Here's a template for custom crafting recipes:
 
 `ADD A PICTURE HERE LATER`
 ## Mechanical Compactinator
+###### Datapack Author: wompking
 This datapack adds a way to create simple plates and alloys used in some datapacks. The Compactinator is built like this, standing upright:
 
 ![Compactinator](https://cdn.discordapp.com/attachments/680681632373407779/680689259254120465/structurecompress.png)
@@ -30,6 +34,7 @@ Here's a few Compactinator recipes, plus a template for making them:
 
 `ADD PICTURES HERE LATER`
 ## Laser Rifle
+###### Datapack Author: wompking
 This datapack adds a laser rifle and its ammunition.
 Its dependencies are:
 * Crafting Core
@@ -37,3 +42,7 @@ Its dependencies are:
 
 
 Note that when firing close to straight down, the firer may be shot instead of the target.
+
+## FAQ
+***Q: Hey, I have a datapack idea / datapack that I would like to add to this list. How can I do this?***
+A: For datapack ideas, simply message me and I will see if I can make it. For datapacks, give me the datapack and I will modify it to be *Simply Certified Compatible* with the other datapacks.
