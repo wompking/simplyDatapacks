@@ -45,4 +45,5 @@ Note that when firing close to straight down, the firer may be shot instead of t
 
 ## FAQ
 ***Q: Hey, I have a datapack idea / datapack that I would like to add to this list. How can I do this?***
-A: For datapack ideas, simply message me and I will see if I can make it. For datapacks, give me the datapack and I will modify it to be *Simply Certified Compatible* with the other datapacks.
+
+A: For datapack ideas, just message me and I will see if I can make it. For datapacks, give me the datapack and I will modify it to be *Simply Certified Compatible* with the other datapacks.
