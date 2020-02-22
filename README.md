@@ -8,6 +8,7 @@ Note that these datapacks come seperately; you don't have to have all of them as
 * Mechanical Compactinator
 * Laser Rifle
 * Variety Tweaks
+* Stabilized Ender Teleportation Core
 * FAQ
 
 
