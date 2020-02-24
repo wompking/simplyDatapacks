@@ -114,6 +114,7 @@ If used too many times in a short period, negative effects can occur to the user
 This datapack adds conveyors.
 Its dependencies are:
 * Simply Core
+* Mechanical Compactinator
 
 The basic conveyor belt is crafted like this:
 `ADD PICTURE HERE LATER`
