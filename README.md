@@ -44,11 +44,17 @@ The second thing the datapack adds is a few scoreboards:
   * 270
   * 360
   
- And the third thing this datapack adds is a wrench:
+The third thing this datapack adds is a wrench:
  
 `ADD A PICTURE HERE LATER`
 
 Swap hands to change it from backwards to forawrds mode, and query people who used it this tick with the `SimplyWrenching` and `SimplyWrenchingBack` tags.
+
+The fourth thing this datapack adds is a few items:
+
+`ADD PICTURES HERE LATER`
+Don't compactinate this one!
+
 ## Mechanical Compactinator
 ###### Datapack Author: wompking
 This datapack adds a way to create simple plates and alloys used in some datapacks. The Compactinator is built like this, standing upright:
@@ -62,6 +68,8 @@ Here's a few Compactinator recipes, plus a template for making them:
 `ADD PICTURES HERE LATER`
 
 Ender Shards can also be used as cyan dye!
+
+###### **DISCLAIMER: DO NOT COMPACTINATE THE POWER CORE.**
 
 ## Laser Rifle
 ###### Datapack Author: wompking
@@ -101,7 +109,7 @@ The teleportation core is crafted like this:
 When the item is used, the user teleports forwards ~25 blocks.
 If used too many times in a short period, negative effects can occur to the user.
 
-## Conveyors
+## Conveyor Belts
 ###### Datapack Author: wompking
 This datapack adds conveyors.
 Its dependencies are:
@@ -118,6 +126,8 @@ If you are working with conveyor belts, but don't want to be moved by them, craf
 `ADD PICTURE HERE LATER`
 Just put them on and you shouldn't be moved!
 
+There are actually 2 more tiers of conveyors, each 4 times more powerful than the last:
+`ADD PICTURES HERE LATER`
 ## FAQ
 ***Q: Hey, I have a datapack idea / datapack that I would like to add to this list. How can I do this?***
 
