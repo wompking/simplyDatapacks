@@ -4,7 +4,7 @@ A repository for all of the Simply Certified Compatible datapacks.
 Note that these datapacks come seperately; you don't have to have all of them as long as all dependencies are resolved.
 
 ### Table Of Contents
-* Simply Core
+* [Simply Core](https://github.com/wompking/simplyDatapacks/blob/master/README.md#simply-core)
 * Mechanical Compactinator
 * Laser Rifle
 * Variety Tweaks
