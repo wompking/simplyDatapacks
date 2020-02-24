@@ -9,6 +9,7 @@ Note that these datapacks come seperately; you don't have to have all of them as
 * Laser Rifle
 * Variety Tweaks
 * Stabilized Ender Teleportation Core
+* Conveyor Belts
 * FAQ
 
 
@@ -28,7 +29,7 @@ The second thing the datapack adds is a few scoreboards:
 * SimplyPosY; an entity's Y position, rounded.
 * SimplyPosZ; an entity's Z position, rounded.
 * SimplyDimension; an entity's dimension ID.
-* SimplyClick; a scoreboard for carrot-on-a-stick clicks. Query entities that clicked this tick using the tag SimplyClicked.
+* SimplyClick; a scoreboard for carrot-on-a-stick clicks. Query entities that clicked this tick using the tag `SimplyClicked`.
 * SimplyRandom; random numbers, updated every tick. Query using `scoreboard players get <#> SimplyRandom`, where `#` is a number from 0 - 15.
 * SimplyRayStep; used for recursive raycasting purposes.
 * SimplyConstant; has important constants. Query using `scoreboard players get #x SimplyConstant`, where `x` is a supported constant. Supported constants are:
@@ -36,8 +37,12 @@ The second thing the datapack adds is a few scoreboards:
   * -1
   * 1
   * 0
-
+  
+ And the third thing this datapack adds is a wrench:
+ 
 `ADD A PICTURE HERE LATER`
+
+Swap hands to change it from backwards to forawrds mode, and query people who used it this tick with the `SimplyWrenching` and `SimplyWrenchingBack` tags.
 ## Mechanical Compactinator
 ###### Datapack Author: wompking
 This datapack adds a way to create simple plates and alloys used in some datapacks. The Compactinator is built like this, standing upright:
@@ -49,19 +54,27 @@ To use the Compactinator, put the required materials under the piston and activa
 Here's a few Compactinator recipes, plus a template for making them:
 
 `ADD PICTURES HERE LATER`
+
+Ender Shards can also be used as cyan dye!
+
 ## Laser Rifle
 ###### Datapack Author: wompking
 This datapack adds a laser rifle and its ammunition.
 Its dependencies are:
-* Crafting Core
+* Simply Core
 * Mechanical Compactinator
 
+The laser rifle is crafted like this:
+`ADD PICTURE HERE LATER`
+And its ammunition is crafted like this:
+`ADD PICTURE HERE LATER`
+To use, first load in some ammunition by clicking the use button with it in your hand. To aim, switch the rifle into your offhand, and to fire, switch it back into your main hand and click the use button.
 
 Note that when firing close to straight down, the firer may be shot instead of the target.
 
 ## Variety Tweaks
 ###### Datapack Author: wompking
-This datapack adds a few tweaks into Minecraft
+This datapack adds a few tweaks into Minecraft.
 Its dependencies are:
 * Simply Core
 
@@ -73,12 +86,31 @@ Here's a list of all the tweaks it adds:
 ###### Datapack Author: wompking
 This datapack adds a teleportation item.
 Its dependencies are:
-* Crafting Core
+* Simply Core
 * Mechanical Compactinator
 
+The teleportation core is crafted like this:
+`ADD PICTURE HERE LATER`
 
 When the item is used, the user teleports forwards ~25 blocks.
 If used too many times in a short period, negative effects can occur to the user.
+
+## Conveyors
+###### Datapack Author: wompking
+This datapack adds conveyors.
+Its dependencies are:
+* Simply Core
+
+The basic conveyor belt is crafted like this:
+`ADD PICTURE HERE LATER`
+
+When the item is used, a conveyor belt is placed on the ground that will move entities. It can be deactivated by running a redstone wire on top of the belt and powering it.
+To rotate a conveyor belt, use the Simply Wrench. To remove a conveyor belt, craft the Conveyor Removing Spatula:
+`ADD PICTURE HERE LATER`
+and use it to remove the conveyor belt.
+If you are working with conveyor belts, but don't want to be moved by them, craft the Conveyor Resistant Boots:
+`ADD PICTURE HERE LATER`
+Just put them on and you shouldn't be moved!
 
 ## FAQ
 ***Q: Hey, I have a datapack idea / datapack that I would like to add to this list. How can I do this?***
