@@ -37,6 +37,12 @@ The second thing the datapack adds is a few scoreboards:
   * -1
   * 1
   * 0
+  * 19
+  * 45
+  * 90
+  * 180
+  * 270
+  * 360
   
  And the third thing this datapack adds is a wrench:
  
