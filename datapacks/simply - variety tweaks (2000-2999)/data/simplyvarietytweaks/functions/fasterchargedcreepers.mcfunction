@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:creeper] if data entity @s {powered:1b} run effect give @s speed 1 2 true

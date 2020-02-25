@@ -1,0 +1,1 @@
+tellraw @a {"text":"Loaded ψSimplyψ- Mechanical Compactinator","color":"red","italic":true}

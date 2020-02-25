@@ -1,0 +1,1 @@
+summon minecraft:item ~ ~ ~ {Age:-32768,Item:{id:"minecraft:cyan_dye",Count:8b,tag:{display:{Name:'{"text":"Ender Shard","italic":false}',Lore:['{"text":"A shattered, but still partly functional, ender pearl.","color":"gray","italic":true}','{"text":"Can be used for dying items.","color":"gray","italic":true}']},CustomModelData:1001,CustomItemId:"simply:ender_shard"}}}

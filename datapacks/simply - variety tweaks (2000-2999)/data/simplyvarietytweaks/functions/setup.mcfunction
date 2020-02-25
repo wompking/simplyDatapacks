@@ -1,0 +1,1 @@
+tellraw @a {"text":"Loaded ψSimplyψ- Variety Tweaks","color":"red","italic":true}
