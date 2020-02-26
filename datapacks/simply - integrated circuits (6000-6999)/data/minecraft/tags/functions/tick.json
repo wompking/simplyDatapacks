@@ -1,0 +1,8 @@
+{
+    "values": [
+        "circuits:craftbase",
+        "circuits:craftin",
+        "circuits:craftout",
+        "circuits:craftnand"
+    ]
+}

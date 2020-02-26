@@ -1,0 +1,1 @@
+tellraw @a {"text":"Loaded ψSimplyψ- Integrated Circuits","color":"red","italic":true}
