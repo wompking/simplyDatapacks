@@ -1,3 +1,4 @@
+forceload add 0 0
 scoreboard objectives add SimplyXPos dummy
 scoreboard objectives add SimplyYPos dummy
 scoreboard objectives add SimplyZPos dummy

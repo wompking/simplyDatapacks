@@ -5,11 +5,13 @@ execute as @e store result score @s SimplyDimension run data get entity @s Dimen
 
 execute as @e[tag=SimplyWrenching] run tag @s remove SimplyWrenching
 execute as @e[tag=SimplyWrenchingBack] run tag @s remove SimplyWrenchingBack
+execute as @e[tag=SimplySpatuling] run tag @s remove SimplySpatuling
 execute as @e[tag=SimplyClicked] run tag @s remove SimplyClicked
 execute as @e if score @s SimplyClick matches 1.. run tag @s add SimplyClicked
 execute as @e[tag=SimplyClicked] run scoreboard players set @s SimplyClick 0
 execute as @e[tag=SimplyClicked] if data entity @s SelectedItem.tag{clickEvent:"simply_wrench"} run tag @s add SimplyWrenching
 execute as @e[tag=SimplyClicked] if data entity @s SelectedItem.tag{clickEvent:"simply_wrench_backwards"} run tag @s add SimplyWrenchingBack
+execute as @e[tag=SimplyClicked] if data entity @s SelectedItem.tag{clickEvent:"simply_spatula"} run tag @s add SimplySpatuling
 execute as @e[tag=SimplyWrenching] at @s run playsound minecraft:block.anvil.land master @s ~ ~ ~ 0.01 2
 execute as @e[tag=SimplyWrenching] at @s run playsound minecraft:block.anvil.land master @s ~ ~ ~ 0.01 1.8
 execute as @e[tag=SimplyWrenching] at @s run playsound minecraft:block.anvil.land master @s ~ ~ ~ 0.01 1.6
