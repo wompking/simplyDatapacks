@@ -1,0 +1,25 @@
+execute as @e[type=minecraft:item_frame,tag=simplyCrafting] at @s if data entity @s Item{id:"minecraft:redstone"} run tag @s add simplyCraftBFInterpreter
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] if data entity @s Item.tag.CustomItemId run tag @s remove simplyCraftBFInterpreter
+
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s positioned ~-1 ~ ~-1 unless data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item{id:"minecraft:gold_ingot"} run tag @s remove simplyCraftBFInterpreter
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s positioned ~-1 ~ ~-1 if data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item.tag.CustomItemId run tag @s remove simplyCraftBFInterpreter
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s positioned ~ ~ ~-1 unless data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item{id:"minecraft:ender_eye"} run tag @s remove simplyCraftBFInterpreter
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s positioned ~ ~ ~-1 if data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item.tag.CustomItemId run tag @s remove simplyCraftBFInterpreter
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s positioned ~1 ~ ~-1 unless data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item{id:"minecraft:gold_ingot"} run tag @s remove simplyCraftBFInterpreter
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s positioned ~1 ~ ~-1 if data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item.tag.CustomItemId run tag @s remove simplyCraftBFInterpreter
+
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s positioned ~-1 ~ ~ unless data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item{id:"minecraft:piston"} run tag @s remove simplyCraftBFInterpreter
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s positioned ~-1 ~ ~ if data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item.tag.CustomItemId run tag @s remove simplyCraftBFInterpreter
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s positioned ~1 ~ ~ unless data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item{id:"minecraft:piston"} run tag @s remove simplyCraftBFInterpreter
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s positioned ~1 ~ ~ if data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item.tag.CustomItemId run tag @s remove simplyCraftBFInterpreter
+
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s positioned ~-1 ~ ~1 unless data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item{id:"minecraft:gold_ingot"} run tag @s remove simplyCraftBFInterpreter
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s positioned ~-1 ~ ~1 if data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item.tag.CustomItemId run tag @s remove simplyCraftBFInterpreter
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s positioned ~ ~ ~1 unless data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item{id:"minecraft:end_rod"} run tag @s remove simplyCraftBFInterpreter
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s positioned ~ ~ ~1 if data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item.tag.CustomItemId run tag @s remove simplyCraftBFInterpreter
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s positioned ~1 ~ ~1 unless data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item{id:"minecraft:gold_ingot"} run tag @s remove simplyCraftBFInterpreter
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s positioned ~1 ~ ~1 if data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item.tag.CustomItemId run tag @s remove simplyCraftBFInterpreter
+
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s run function simplycore:craftsfx
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s run data modify entity @s Item set value {Count:1b,id:"minecraft:carrot_on_a_stick",tag:{display:{Name:'{"text":"BF Interpreter","italic":false}',Lore:['{"text":"Right click while standing on valid BF code to interpret.","italic":false,"color":"gray"}','{"text":"Does not output ASCII.","italic":false,"color":"gray"}']},HideFlags:4,Unbreakable:1b,CustomModelData:11000,ClickEvent:"interpret",CustomItemId:"simply:bf_interpreter"}}
+execute as @e[type=minecraft:item_frame,tag=simplyCraftBFInterpreter] at @s run tag @s remove simplyCraftBFInterpreter
