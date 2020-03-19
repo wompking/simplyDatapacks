@@ -1,0 +1,25 @@
+execute as @e[type=minecraft:item_frame,tag=simplyCrafting] at @s if data entity @s Item{id:"minecraft:redstone"} run tag @s add simplyCraftProgramCard
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] if data entity @s Item.tag.CustomItemId run tag @s remove simplyCraftProgramCard
+
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s positioned ~-1 ~ ~-1 unless data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item{id:"minecraft:iron_ingot"} run tag @s remove simplyCraftProgramCard
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s positioned ~-1 ~ ~-1 if data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item.tag.CustomItemId run tag @s remove simplyCraftProgramCard
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s positioned ~ ~ ~-1 unless data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item{id:"minecraft:paper"} run tag @s remove simplyCraftProgramCard
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s positioned ~ ~ ~-1 if data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item.tag.CustomItemId run tag @s remove simplyCraftProgramCard
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s positioned ~1 ~ ~-1 unless data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item{id:"minecraft:iron_ingot"} run tag @s remove simplyCraftProgramCard
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s positioned ~1 ~ ~-1 if data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item.tag.CustomItemId run tag @s remove simplyCraftProgramCard
+
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s positioned ~-1 ~ ~ unless data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item{id:"minecraft:paper"} run tag @s remove simplyCraftProgramCard
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s positioned ~-1 ~ ~ if data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item.tag.CustomItemId run tag @s remove simplyCraftProgramCard
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s positioned ~1 ~ ~ unless data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item{id:"minecraft:paper"} run tag @s remove simplyCraftProgramCard
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s positioned ~1 ~ ~ if data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item.tag.CustomItemId run tag @s remove simplyCraftProgramCard
+
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s positioned ~-1 ~ ~1 unless data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item{id:"minecraft:iron_ingot"} run tag @s remove simplyCraftProgramCard
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s positioned ~-1 ~ ~1 if data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item.tag.CustomItemId run tag @s remove simplyCraftProgramCard
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s positioned ~ ~ ~1 unless data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item{id:"minecraft:ender_eye"} run tag @s remove simplyCraftProgramCard
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s positioned ~ ~ ~1 if data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item.tag.CustomItemId run tag @s remove simplyCraftProgramCard
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s positioned ~1 ~ ~1 unless data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item{id:"minecraft:iron_ingot"} run tag @s remove simplyCraftProgramCard
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s positioned ~1 ~ ~1 if data entity @e[type=minecraft:item_frame,distance=..0.1,limit=1,sort=nearest] Item.tag.CustomItemId run tag @s remove simplyCraftProgramCard
+
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s run function simplycore:craftsfx
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s run data modify entity @s Item set value {id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Program Card","italic":false}',Lore:['{"text":"Right click while standing on valid BF code to save.","italic":false,"color":"gray"}','{"text":"Mark end of program with two Program Exit commands.","italic":false,"color":"gray"}']},HideFlags:4,Unbreakable:1b,CustomModelData:13003,ClickEvent:"save",CustomItemId:"simply:program_card"}}
+execute as @e[type=minecraft:item_frame,tag=simplyCraftProgramCard] at @s run tag @s remove simplyCraftProgramCard

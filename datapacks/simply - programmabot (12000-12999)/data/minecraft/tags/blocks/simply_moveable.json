@@ -1,0 +1,30 @@
+{
+    "values": [
+        "#minecraft:simply_air",
+		"minecraft:water",
+		"#minecraft:carpets",
+		"#minecraft:buttons",
+		"#minecraft:beds",
+		"#minecraft:banners",
+		"#minecraft:corals",
+		"minecraft:fire",
+		"#minecraft:flowers",
+		"#minecraft:impermeable",
+		"#minecraft:leaves",
+		"#minecraft:portals",
+		"#minecraft:rails",
+		"#minecraft:saplings",
+		"#minecraft:wall_signs",
+		"minecraft:stone_pressure_plate",
+		"minecraft:oak_pressure_plate",
+		"minecraft:spruce_pressure_plate",
+		"minecraft:birch_pressure_plate",
+		"minecraft:jungle_pressure_plate",
+		"minecraft:acacia_pressure_plate",
+		"minecraft:dark_oak_pressure_plate",
+		"minecraft:light_weighted_pressure_plate",
+		"minecraft:heavy_weighted_pressure_plate",
+		"minecraft:vine",
+		"minecraft:sugar_cane"
+    ]
+}

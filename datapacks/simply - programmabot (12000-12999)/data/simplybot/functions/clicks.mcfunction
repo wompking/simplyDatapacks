@@ -1,0 +1,2 @@
+execute as @a[tag=SimplyClicked] if data entity @s SelectedItem.tag{ClickEvent:"save"} at @s if block ~ ~-1 ~ #minecraft:simply_bf_understand align xz run summon minecraft:armor_stand ~0.5 ~ ~0.5 {Marker:1b,Invisible:1b,Tags:["BotSave"],HandItems:[{Count:1b,id:"minecraft:brick",tag:{ProgramTape:[]}},{}]}
+execute as @e[type=minecraft:armor_stand,tag=BotSave] at @s run function simplybot:save
